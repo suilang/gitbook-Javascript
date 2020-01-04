@@ -1,3 +1,7 @@
+---
+description: css 选择器不仅可以用于在css文件中选择合适的元素设置样式，还可以应用在document.querySelector中选择元素，非常方便
+---
+
 # css选择器
 
 ## 相关问题
@@ -5,8 +9,6 @@
 1. 如何在css中选择一个元素
 2. querySelector参数设置
 3. 选择类名以`header-`开头的元素
-
-> css 选择器不仅可以用于在css文件中选择合适的元素设置样式，还可以应用在`document.querySelector`中选择元素，非常方便
 
 | 选择器 | 示例 | 示例说明 | CSS |
 | :--- | :--- | :--- | :--- |
