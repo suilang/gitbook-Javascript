@@ -1,6 +1,12 @@
 # css选择器
 
+## 相关问题
 
+1. 如何在css中选择一个元素
+2. querySelector参数设置
+3. 选择类名以`header-`开头的元素
+
+> css 选择器不仅可以用于在css文件中选择合适的元素设置样式，还可以应用在`document.querySelector`中选择元素，非常方便
 
 | 选择器 | 示例 | 示例说明 | CSS |
 | :--- | :--- | :--- | :--- |
@@ -28,9 +34,9 @@
 | [:after](https://www.runoob.com/cssref/sel-after.html) | p:after | 在每个&lt;p&gt;元素之后插入内容 | 2 |
 | [:lang\(language\)](https://www.runoob.com/cssref/sel-lang.html) | p:lang\(it\) | 选择一个lang属性的起始值="it"的所有&lt;p&gt;元素 | 2 |
 | [element1~element2](https://www.runoob.com/cssref/sel-gen-sibling.html) | p~ul | 选择p元素之后的每一个ul元素 | 3 |
-| [\[attribute^=value\]](https://www.runoob.com/cssref/sel-attr-begin.html) | a\[src^="https"\] | 选择每一个src属性的值以"https"开头的元素 | 3 |
+| [\[attribute^=value\]](https://www.runoob.com/cssref/sel-attr-begin.html) | a\[src^=“https”\] | 选择每一个src属性的值以"https"开头的元素 | 3 |
 | [\[attribute$=value\]](https://www.runoob.com/cssref/sel-attr-end.html) | a\[src$=".pdf"\] | 选择每一个src属性的值以".pdf"结尾的元素 | 3 |
-| [\[attribute\*=value\]](https://www.runoob.com/cssref/sel-attr-contain.html) | a\[src\*="runoob"\] | 选择每一个src属性的值包含子字符串"runoob"的元素 | 3 |
+| [\[attribute\*=value\]](https://www.runoob.com/cssref/sel-attr-contain.html) | a\[src\*=“runoob”\] | 选择每一个src属性的值包含子字符串"runoob"的元素 | 3 |
 | [:first-of-type](https://www.runoob.com/cssref/sel-first-of-type.html) | p:first-of-type | 选择每个p元素是其父级的第一个p元素 | 3 |
 | [:last-of-type](https://www.runoob.com/cssref/sel-last-of-type.html) | p:last-of-type | 选择每个p元素是其父级的最后一个p元素 | 3 |
 | [:only-of-type](https://www.runoob.com/cssref/sel-only-of-type.html) | p:only-of-type | 选择每个p元素是其父级的唯一p元素 | 3 |
@@ -51,9 +57,11 @@
 | [:out-of-range](https://www.runoob.com/cssref/sel-out-of-range.html) | :out-of-range | 匹配值在指定区间之外的input元素 | 3 |
 | [:in-range](https://www.runoob.com/cssref/sel-in-range.html) | :in-range | 匹配值在指定区间之内的input元素 | 3 |
 | [:read-write](https://www.runoob.com/cssref/sel-read-write.html) | :read-write | 用于匹配可读及可写的元素 | 3 |
-| [:read-only](https://www.runoob.com/cssref/sel-read-only.html) | :read-only | 用于匹配设置 "readonly"（只读） 属性的元素 | 3 |
+| [:read-only](https://www.runoob.com/cssref/sel-read-only.html) | :read-only | 用于匹配设置 “readonly”（只读） 属性的元素 | 3 |
 | [:optional](https://www.runoob.com/cssref/sel-optional.html) | :optional | 用于匹配可选的输入元素 | 3 |
-| [:required](https://www.runoob.com/cssref/sel-required.html) | :required | 用于匹配设置了 "required" 属性的元素 | 3 |
+| [:required](https://www.runoob.com/cssref/sel-required.html) | :required | 用于匹配设置了 “required” 属性的元素 | 3 |
 | [:valid](https://www.runoob.com/cssref/sel-valid.html) | :valid | 用于匹配输入值为合法的元素 | 3 |
 | [:invalid](https://www.runoob.com/cssref/sel-invalid.html) | :invalid | 用于匹配输入值为非法的元素 | 3 |
+
+> 表格来自[菜鸟教程](https://www.runoob.com/cssref/css-selectors.html)，在此仅做为笔记参考
 
